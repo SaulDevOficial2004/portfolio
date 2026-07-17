@@ -1,60 +1,86 @@
 # Saúl San Martín Portfolio
 
-Portafolio profesional nativo construido únicamente con HTML5, CSS3 y JavaScript Vanilla ES6. No utiliza React, Next.js, Vue, Angular, Svelte, Tailwind, Bootstrap ni jQuery.
+Portafolio profesional desarrollado con HTML5, CSS3 y JavaScript ES6.
 
-## Decisiones de UX
+Diseñado para presentar mi experiencia como Full Stack Developer con enfoque Backend, mostrando proyectos, arquitectura de software, tecnologías y mi forma de trabajo mediante una interfaz moderna, responsive y optimizada para producción.
 
-- El hero responde en segundos quién eres, qué construyes y cuál es tu fortaleza principal.
-- El contenedor del logo está integrado desde el header y el hero para recibir tu futura identidad visual sin rediseñar.
-- ProFitnessGym funciona como caso de estudio profundo, no como tarjeta genérica.
-- El stack está agrupado por contexto de trabajo para comunicar criterio técnico, no solo herramientas.
-- La sección de proyectos está preparada para crecer desde datos en `script.js`.
-- Las animaciones son discretas, progresivas y respetan `prefers-reduced-motion`.
+## Tecnologías
 
-## Estructura
+- HTML5
+- CSS3
+- JavaScript ES6
+- Responsive Design
+- SEO básico
+- Accesibilidad web
 
-- `index.html`: estructura semántica, SEO, navegación y contenedores principales.
-- `styles.css`: sistema visual, responsive, accesibilidad y microinteracciones.
-- `script.js`: datos del portafolio, renderizado reusable y reveal on scroll.
-- `assets/images`: recursos visuales organizados para producción.
-
-## Arquitectura de Imágenes
+## Estructura del proyecto
 
 ```text
-assets/
-└── images/
-    ├── logo/
-    │   ├── logo.svg
-    │   └── logo-white.svg
-    ├── projects/
-    │   └── profitnessgym/
-    │       ├── dashboard.svg
-    │       └── architecture.svg
-    ├── profile/
-    │   └── profile.png
-    ├── backgrounds/
-    └── icons/
+.
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+└── assets/
+    └── images/
+        ├── logo/
+        │   └── logo.png
+        └── projects/
+            └── profitnessgym/
+                ├── dashboard.svg
+                └── architecture.svg
 ```
 
-El HTML y JavaScript ya usan rutas reales con etiquetas `<img>`. Cuando tengas los archivos finales, solo reemplaza o agrega las imágenes en esas rutas sin modificar la estructura del sitio.
+## Proyecto destacado
 
-## Uso
+### ProFitnessGym
 
-Puedes abrir directamente `index.html` en el navegador.
+Sistema administrativo web desarrollado desde cero para la gestión integral de gimnasios.
 
-Opcionalmente, para desarrollo con servidor local:
+Incluye módulos como:
+
+- Gestión de clientes
+- Membresías
+- Inventario
+- Productos
+- Ventas
+- Visitantes
+- Reportes
+- Transferencias
+- Portal del cliente
+- APIs REST
+
+## Desarrollo local
+
+Puedes abrir directamente `index.html` en cualquier navegador.
+
+También puedes ejecutar un servidor local:
 
 ```bash
+npm install
 npm run dev
 ```
 
-## Escalar Proyectos
+## Personalización
 
-Para agregar un proyecto, añade un objeto nuevo en `portfolio.projects` dentro de `script.js`. Si el proyecto debe ser protagonista, marca `featured: true` y agrega `impact`, `modules`, `architecture`, `challenges` y `media`.
+La información del portafolio se administra desde `script.js`.
 
-## Pendientes Recomendados
+Para agregar un nuevo proyecto, incorpora un objeto dentro de `portfolio.projects`. Si deseas que aparezca como proyecto principal, establece:
 
-- Reemplazar `contacto@saulsanmartin.dev` y el enlace de GitHub por datos reales.
-- Agregar versiones finales del logo si decides migrar de `logo.png` a SVG.
-- Sustituir o complementar los SVG actuales con capturas reales de ProFitnessGym.
-- Agregar métricas verificables cuando existan: usuarios, módulos activos, registros gestionados, tiempo ahorrado o volumen de datos.
+```javascript
+featured: true
+```
+
+## Contacto
+
+**Correo**
+
+saul.dev.oficial@gmail.com
+
+**GitHub**
+
+https://github.com/SaulDevOficial2004
+
+---
+
+© 2026 Saúl de Jesús San Martín Martínez
