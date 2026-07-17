@@ -1,0 +1,40 @@
+<svg width="1120" height="700" viewBox="58 48 1004 604" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Arquitectura modular de ProfitnessGym</title>
+  <desc id="desc">Diagrama con portal, autenticación, módulos, API y base de datos relacional.</desc>
+  <rect width="1120" height="700" rx="34" fill="#070A0F"/>
+  <rect x="1" y="1" width="1118" height="698" rx="33" stroke="#8BBCFF" stroke-opacity="0.18"/>
+  <g stroke="#263244" stroke-width="2">
+    <path d="M268 168H440"/>
+    <path d="M680 168H852"/>
+    <path d="M560 236V314"/>
+    <path d="M376 420H476"/>
+    <path d="M644 420H744"/>
+    <path d="M560 482V554"/>
+  </g>
+  <rect x="92" y="104" width="176" height="128" rx="22" fill="#111827" stroke="#344054"/>
+  <rect x="92" y="336" width="284" height="168" rx="24" fill="#111827" stroke="#344054"/>
+  <rect x="440" y="78" width="240" height="180" rx="28" fill="#0F1622" stroke="#8BBCFF" stroke-opacity="0.42"/>
+  <rect x="476" y="314" width="168" height="212" rx="28" fill="#111827" stroke="#344054"/>
+  <rect x="744" y="336" width="284" height="168" rx="24" fill="#111827" stroke="#344054"/>
+  <rect x="852" y="104" width="176" height="128" rx="22" fill="#111827" stroke="#344054"/>
+  <rect x="410" y="554" width="300" height="82" rx="24" fill="#0F1622" stroke="#8BBCFF" stroke-opacity="0.36"/>
+  <text x="180" y="154" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial" font-size="20" font-weight="700">Portal</text>
+  <text x="180" y="184" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Cliente</text>
+  <text x="560" y="142" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial" font-size="22" font-weight="700">Autenticación</text>
+  <text x="560" y="176" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Sessions · Roles · Middleware</text>
+  <text x="940" y="154" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial" font-size="20" font-weight="700">Admin</text>
+  <text x="940" y="184" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Operación</text>
+  <text x="234" y="386" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial" font-size="20" font-weight="700">Módulos</text>
+  <text x="234" y="420" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Clientes · Membresías · Ventas</text>
+  <text x="234" y="448" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Inventario · Reportes</text>
+  <text x="560" y="392" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial" font-size="20" font-weight="700">API REST</text>
+  <text x="560" y="426" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Fetch · JSON · Validaciones</text>
+  <text x="886" y="386" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial" font-size="20" font-weight="700">Servicios</text>
+  <text x="886" y="420" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Archivos · Reportes</text>
+  <text x="886" y="448" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Transferencias</text>
+  <text x="560" y="604" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial" font-size="20" font-weight="700">MySQL Relacional</text>
+  <text x="560" y="628" text-anchor="middle" fill="#9AA4B2" font-family="Inter, Arial" font-size="15">Foreign Keys · JOIN · Transactions</text>
+  <circle cx="560" cy="168" r="5" fill="#8BBCFF"/>
+  <circle cx="560" cy="420" r="5" fill="#8BBCFF"/>
+  <circle cx="560" cy="594" r="5" fill="#8BBCFF"/>
+</svg>

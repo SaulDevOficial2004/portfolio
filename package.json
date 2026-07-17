@@ -1,0 +1,9 @@
+{
+  "name": "saul-san-martin-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portafolio profesional nativo construido únicamente con HTML5, CSS3 y JavaScript ES6.",
+  "scripts": {
+    "dev": "npx serve ."
+  }
+}
